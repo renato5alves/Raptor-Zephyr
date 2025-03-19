@@ -27,10 +27,20 @@ LOG_MODULE_REGISTER(main, CONFIG_APP_LOG_LEVEL);
 
 int main(void)
 {
-	/*Escreve no console a seguinte mensagem conforme a descrição da feature de
+	/*Escreve no console a seguinte mensagem conforme a descrição da feature que
 	exibe a mensagem "Hello World! This is Raptor" pensado apra executar em ambiente de virtualização
 	utilizado QEMU*/
 	printf("Hello World!! This is Raptor!\n");
+
+	/*Escreve no console a seguinte mensagem conforme a descrição da feature que exibe
+	"Programar é bacana" ressaltando o quanto é divertido e desafiador programar
+	*/
+	printf("Programar eh Bacana!\n");
+
+	/*Escreve no console a mensagem descrevendo de forma sucinta como é a experiência de programar em C
+	*/
+	printf("Programar em C eh muito mais bacana!!!\n");
+
 
 	return 0;
 }
