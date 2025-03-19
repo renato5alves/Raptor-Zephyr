@@ -32,9 +32,14 @@ int main(void)
 	utilizado QEMU*/
 	printf("Hello World!! This is Raptor!\n");
 
-	/*Escreve no console a seguinte mensagem conforme a descrição da feature que exibe a mensagem 
-	"Programar é bacana" ressaltando o quanto é divertido e desafiador programar*/
+	/*Escreve no console a seguinte mensagem conforme a descrição da feature que exibe
+	"Programar é bacana" ressaltando o quanto é divertido e desafiador programar
+	*/
 	printf("Programar eh Bacana!\n");
+
+	/*Escreve no console a mensagem descrevendo de forma sucinta como é a experiência de programar em C
+	*/
+	printf("Programar em C eh muito mais bacana!!!\n");
 
 
 	return 0;
